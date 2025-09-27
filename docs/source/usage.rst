@@ -6,13 +6,13 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use dj-apis-allauth, first install it using pip:
 
 .. code-block:: console
 
-   (.venv) $ pip install lumache
+    $ pip install dj-apis-allauth
 
-Creating recipes
+Creating Registration and login API Endpoints
 ----------------
 
 To retrieve a list of random ingredients,
@@ -28,7 +28,7 @@ will raise an exception.
 
 For example:
 
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+>>> import dj_apis_allauth
+>>> dj_apis_allauth.views
+
 

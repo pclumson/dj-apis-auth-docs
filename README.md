@@ -1,30 +1,5 @@
-Welcome to dj-apis-allauth's documentation!
-===================================
-
-**dj-apis-allauth** (/lu'make/) is a Python Django library for
-Django Rest Framework API Endpoints secure Authentications . This package is ideal for Mobile Applications or Single Page Application Integration such as Flutter, VueJs, React, AngularJs etc....
-and offers a *simple* and *intuitive* API Endpoint Authentication.
-
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
-.. note::
-
-   This project is under active development.
-
-Contents
---------
-
-.. toctree::
-
-   usage
-   Add it to your project and use the Views and URLs( login, jwt_login, register)
-   api
-   
-   # dj-apis-allauth
+# dj-apis-allauth
 Django Rest Framework  API Endpoints secure Authentications . This package is ideal for Mobile Applications or Single Page Application Integration such  as Flutter, VueJs, React, AngularJs etc....
-
-[![Published on Django Packages](https://img.shields.io/badge/Published%20on-Django%20Packages-0c3c26)](https://djangopackages.org/packages/p/dj-apis-allauth/)
 
 # Why this project ?
 
@@ -35,25 +10,17 @@ Thanks.
 
 # The regular django api token with user's info
 
-
-<img width="1328" height="981" alt="Screenshot from 2025-09-26 18-56-57" src="https://github.com/user-attachments/assets/0009a3a8-b28b-4585-bc57-e12568e6ded4" />
+<img width="1535" height="958" alt="Screenshot from 2025-09-24 01-33-56" src="https://github.com/user-attachments/assets/3836823e-99af-4444-9cd2-7a29c6e6519d" />
 
 This is the token and user info
-
-<img width="1328" height="981" alt="Screenshot from 2025-09-26 18-57-16" src="https://github.com/user-attachments/assets/dd410bea-1c83-4e68-a2db-7f92115f296f" />
-
+<img width="1535" height="958" alt="Screenshot from 2025-09-24 01-44-22" src="https://github.com/user-attachments/assets/9e58c546-5e29-4a21-a195-2a5030de3d65" />
 
 # This is the JWT token return endpoint
 
-<img width="1328" height="981" alt="Screenshot from 2025-09-26 18-57-57" src="https://github.com/user-attachments/assets/4c097266-404c-4659-bed3-23f5ff84c0fc" />
-
-<img width="1328" height="981" alt="Screenshot from 2025-09-26 18-58-19" src="https://github.com/user-attachments/assets/b3bc8051-6969-4678-a8d7-a69a82a53bdd" />
+<img width="1535" height="958" alt="Screenshot from 2025-09-24 01-51-16" src="https://github.com/user-attachments/assets/cc843beb-c8c7-4cda-9f00-cc73dbe6e19c" />
 
 
-
-#  A simple registration page
-
-<img width="1328" height="981" alt="Screenshot from 2025-09-26 18-53-51" src="https://github.com/user-attachments/assets/9405278c-b98e-47a5-b261-26d86e5805e5" />
+<img width="1535" height="958" alt="Screenshot from 2025-09-24 01-51-29" src="https://github.com/user-attachments/assets/42746d44-4a31-4661-be37-053eb966ab27" />
 
 
 ## Requirements
@@ -82,7 +49,7 @@ Add URL patterns
 
 ```python
 urlpatterns = [
-    path('dj_apis_allauth/', include("dj_apis_allauth.urls")),
+    path('dj-apis-allauth/', include('dj_apis_allauth.urls')),
 ]
 ```
     
@@ -131,8 +98,7 @@ Work in progress...
 This project began as a fork of `django-rest-auth` and "dj-rest-auth" . Big thanks to everyone who contributed to that repo!
 
 #### A note from Me
-I will be trying my best to maintain this project but anyone is welcom to help maintain it.
+I will be trying my best to maintain this project but anyone is welcomed to help maintained it.
 There is so many features that I am planning on adding to this.
 So feel free to make propositions on features that should be added.
 Thanks.
-
