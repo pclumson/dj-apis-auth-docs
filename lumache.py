@@ -1,8 +1,8 @@
 """
-Lumache - Python library for cooks and food lovers.
+DJ-APIS-ALLAUUTH - Python library for Django Rest Framework Authentication
 """
 
-__version__ = "0.1.0"
+__version__ = "1.0.0"
 
 
 class InvalidKindError(Exception):
